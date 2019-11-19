@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     //whatWeChose, whatTheyChose, winLoseView
     //use a random number generator to generate a random value for the opponent and have a choice based on that value
     // 0 = paper, 1 = rock, 2 = scissors
+    // new line
     fun paperButtonPressed(view: View){
         val opponentChoice = Random.nextInt(2)
         when(opponentChoice){
